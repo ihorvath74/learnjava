@@ -10,11 +10,17 @@ package pkg01_helloworld;
  * https://github.com/ihorvath74/learnjava.git
  */
 public class Main {
-
+    int instanceVariable;
+    static int classVariable;
+    
+    static int[] intArray;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         System.out.println("Test");
+        
+        intArray=new int[3];
+        intArray[0]=1;
     }
 }
